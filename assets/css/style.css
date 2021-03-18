@@ -1,0 +1,24 @@
+body {
+	font-family: 'Nunito';
+	margin: 0px 20px 0px 20px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Montserrat';
+}
+
+header {
+	margin-top: 30px;
+}
+
+header img {
+	float: left;
+	height: 60px;
+	width: 60px;
+}
+
+header h5 {
+  	position: relative;
+  	top: 23px;
+  	left: 16px;
+}
