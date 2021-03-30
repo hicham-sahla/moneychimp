@@ -23,6 +23,19 @@ header h5 {
   	left: 16px;
 }
 
+/* Default styiling voor btn 3 */
+.btn-3 {
+    padding: 6px 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+    background: #F6CB48;
+    display: block;
+    color: black;
+    width: fit-content;
+    border-radius: 10px;
+}
+
 /* Progressbar voor de mijn aap pagina en voor de dashboard */
 progress {
     width: 100%;
