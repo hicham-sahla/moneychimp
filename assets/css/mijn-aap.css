@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }   
 
+header a {
+    color: black;
+}
+
 .mijn-aap-body {
     background: url(../../assets/img/background.jpg) right center no-repeat;
     background-size: cover;
@@ -61,6 +65,7 @@ a {
     height: 293px;
     display: block;
     margin: auto;
+    margin-right: -20px;
 }
 
 .kosten-fon {
@@ -82,4 +87,48 @@ a {
 .fa-share-alt {
     font-size: 30px;
     float: right;
+}
+
+/* Shop keuzes */
+.keuzen-menu {
+    padding: 20px;
+    background: #C7E6E2;
+    border-radius: 10px;
+}
+
+.keuzes {
+    display: flex;
+    margin: 30px 0px 50px 0px;
+}
+
+.keuze-row {
+    flex: 1;
+    text-align: center;
+}
+
+.keuze-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: auto auto 10px auto;
+}
+
+.bruin {
+    background: #B17537;
+}
+
+.roze {
+    background: #E26969;
+}
+
+.groen {
+    background: #249F8D;
+}
+
+/* .keuze-active {
+    border: 5px solid #F6CB48;
+} */
+
+.keuze-button .btn-3 {
+    margin-left: auto;
 }
