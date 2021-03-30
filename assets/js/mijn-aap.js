@@ -41,10 +41,17 @@ function gekozenBanaan(){
 
 knopBanaan.addEventListener("click", gekozenBanaan);
 
-// var progressBar = document.querySelector("#file");
+var progressBar = document.querySelector("#file");
 
-// if (progressBar <= 50) {
-//     imgUser.src = "../../assets/img/mijn-aap-sad.gif";
-// } else {
-//     imgUser.src = "../../assets/img/mijn-aap-happy.gif";
-// }
+// Set the value of progress element
+progressBar.setAttribute("value", "30");
+  
+// Set the maximum value of progress element
+progressBar.setAttribute("max", "100");
+
+if (progressBar <= 50) {
+    imgUser.src = "../../assets/img/mijn-aap-sad.gif";
+} else {
+    imgUser.src = "../../assets/img/mijn-aap-happy.gif";
+}
+
