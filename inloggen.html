@@ -7,29 +7,33 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/a7d66ca99a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/inloggen.css">
     <title>MoneyChimp</title>
 </head>
 <body>
     <header>
-        <img src="img/logo.svg">
+       <img src="assets/img/logo.svg">
         <h5>MoneyChimp</h5>
     </header>
     <div>
         <h1>Welkom terug!</h1>
         <form action="/">
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="pwd">Wachtwoord:</label>
-            <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
-            <input type="submit">
+            <label class="bold" for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+
+            <label class="bold" for="pwd">Wachtwoord:</label>
+            <input type="password" id="pwd" name="pwd" minlength="8">
+
+            <input type="submit" value="Inloggen">
         </form>
-        <p>Wachtwoord vergeten</p>
-        <div>
-            <img src="">
-            <img src="">
-            <img src="">
+        <p class="center underline">Wachtwoord vergeten</p>
+        <p class="center bold marginZestig">Inloggen met:</p>
+        <div class="center">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-twitter"></i>
         </div>
-        <p>Ik heb al een account</p>
+        <p class="center underline marginVeertig">Ik heb al een account</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
