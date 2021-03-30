@@ -55,7 +55,7 @@ keuzeMenu.style.display = "none";
 
 // Functies van de knoppen kleur
 function gekozenBruin(){
-    imgUser.src = "../../assets/img/mijn-aap-happy.gif";
+    imgUser.src = "../../assets/img/default-aap.gif";
 }
 
 knopBruin.addEventListener("click", gekozenBruin);
