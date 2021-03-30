@@ -1,7 +1,26 @@
+a {
+    text-decoration: none;
+}   
+
+.mijn-aap-body {
+    background: url(../../assets/img/background.jpg) right center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .naam-aap {
     font-size: 26px;
 }
 
 .progress-aap {
     margin: 20px 0px 30px 0px;
+}
+
+.shop-btn i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.shop-btn {
+    float: right;
 }
