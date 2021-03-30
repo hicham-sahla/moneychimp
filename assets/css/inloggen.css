@@ -40,3 +40,7 @@ input[type=submit] {
 .marginVeertig {
 	margin-top: 40px;
 }
+
+a {
+	color: #000000;
+}
