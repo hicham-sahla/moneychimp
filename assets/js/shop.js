@@ -14,7 +14,8 @@ var knopRoze = document.querySelector(".knop-roze");
 var knopGroen = document.querySelector(".knop-groen");
 
 // Afbeelding die veranderd
-var imgUser = document.querySelector("#user-aap");
+var imgUser = document.querySelector(".veranderde-kleur");
+var UserBril = document.querySelector(".veranderde-bril");
 
 var gereedElKleur = document.querySelector(".gereed-btn-kleur");
 var gereedElMinecraft = document.querySelector(".gereed-btn-minecraft");
@@ -93,3 +94,25 @@ function keuzenSluitenMinecraft() {
 }
 
 gereedElMinecraft.addEventListener("click", keuzenSluitenMinecraft);
+
+// Functies van de knoppen minecraft bril
+function gekozenBril1(){
+    UserBril.src = "../../assets/img/Shop-bril-1.gif";
+}
+
+knopBruin.addEventListener("click", gekozenBril1);
+
+function gekozenBril2(){
+    UserBril.src = "../../assets/img/Shop-bril-2.gi";
+}
+
+knopRoze.addEventListener("click", gekozenBril2);
+
+function gekozenBril3(){
+    UserBril.src = "../../assets/img/Shop-bril-3.gi";
+}
+
+knopGroen.addEventListener("click", gekozenBril3);
+
+
+UserBril.style.display = "none";
