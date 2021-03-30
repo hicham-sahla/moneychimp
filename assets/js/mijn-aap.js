@@ -54,4 +54,3 @@ if (progressBar <= 50) {
 } else {
     imgUser.src = "../../assets/img/mijn-aap-happy.gif";
 }
-
