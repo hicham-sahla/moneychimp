@@ -32,8 +32,10 @@ if (progressBar.value <= 50) {
 // Functies van de knoppen
 function gekozenHand(){
     imgUser.src = "../../assets/img/mijn-aap-hand.gif";
-    progressBar.value + 30;
-    
+
+    // Code by: https://stackoverflow.com/questions/38123404/how-to-increment-value-on-progress-bar/38124239
+    progressBar.value = progressBar.value + 10;
+
     // Code van: https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1
     setTimeout(terugAap, 4120);
 }
@@ -43,6 +45,9 @@ knopHand.addEventListener("click", gekozenHand);
 function gekozenDansen(){
     imgUser.src = "../../assets/img/mijn-aap-dansen.gif";
 
+    // Code by: https://stackoverflow.com/questions/38123404/how-to-increment-value-on-progress-bar/38124239
+    progressBar.value = progressBar.value + 10;
+
     // Code van: https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1
     setTimeout(terugAap, 4120);
 }
@@ -51,6 +56,9 @@ knopMuziek.addEventListener("click", gekozenDansen);
 
 function gekozenBanaan(){
     imgUser.src = "../../assets/img/mijn-aap-eten.gif";
+
+    // Code by: https://stackoverflow.com/questions/38123404/how-to-increment-value-on-progress-bar/38124239
+    progressBar.value = progressBar.value + 10;
 
     // Code van: https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1
     setTimeout(terugAap, 4120);
