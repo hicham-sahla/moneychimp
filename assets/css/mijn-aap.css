@@ -8,7 +8,7 @@ a {
     height: 100vh;
 }
 
-.naam-aap {
+.naam-aap, .shop-titel {
     font-size: 26px;
 }
 
@@ -45,3 +45,36 @@ a {
     box-shadow: 0px 0px 10px rgb(153, 179, 168);
 }
 
+/* Shop pagina */
+.cross {
+    font-size: 30px;
+    float: right;
+}
+
+.header-shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-img {
+    height: 293px;
+    display: block;
+    margin: auto;
+}
+
+.kosten-fon {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.shop-bananen {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.shop-clmn {
+    display: flex;
+    padding: 25px 21px;
+}

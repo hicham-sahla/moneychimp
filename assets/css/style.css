@@ -67,3 +67,23 @@ progress::-webkit-progress-value {
 .bank-icons {
     height: 40px;
 }
+
+/* Score styling van hoeveel bananen de gebruiker heeft */
+.score {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+}
+
+.img-score {
+    height: 36px;
+    margin-right: 10px;
+}
+
+.score-font {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Montserrat';
+    margin: 0px;
+}
