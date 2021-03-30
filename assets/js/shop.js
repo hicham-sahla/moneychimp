@@ -22,7 +22,6 @@ function keuzenSluitenKleur() {
         alleKeuzes.style.display = "block";
     } else {
         keuzeMenu.style.display = "block";
-        
     }
 }
 
@@ -35,7 +34,6 @@ function keuzenKleur() {
         alleKeuzes.style.display = "none"
     } else {
         keuzeMenu.style.display = "none";
-        
     }
 }
 
