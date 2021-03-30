@@ -78,3 +78,8 @@ a {
     display: flex;
     padding: 25px 21px;
 }
+
+.fa-share-alt {
+    font-size: 30px;
+    float: right;
+}
