@@ -103,19 +103,19 @@ gereedElMinecraft.addEventListener("click", keuzenSluitenMinecraft);
 
 // Functies van de knoppen minecraft bril
 function gekozenBril1(){
-    UserBril.src = "../../assets/img/Shop-bril-1.gif";
+    UserBril.src = "../../assets/img/shop-bril-1.png";
 }
 
 knopBril1.addEventListener("click", gekozenBril1);
 
 function gekozenBril2(){
-    UserBril.src = "../../assets/img/Shop-bril-2.gif";
+    UserBril.src = "../../assets/img/shop-bril-2.png";
 }
 
 knopBril2.addEventListener("click", gekozenBril2);
 
 function gekozenBril3(){
-    UserBril.src = "../../assets/img/Shop-bril-3.gif";
+    UserBril.src = "../../assets/img/shop-bril-3.png";
 }
 
 knopBril3.addEventListener("click", gekozenBril3);
