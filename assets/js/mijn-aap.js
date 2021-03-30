@@ -13,10 +13,27 @@ function terugAap() {
     imgUser.src = "../../assets/img/mijn-aap-happy.gif";
 }
 
+// Progressbar werkend
+var progressBar = document.querySelector("#file");
+
+// Cody by:https://www.geeksforgeeks.org/how-to-set-get-the-value-of-progress-bar-using-javascript/
+// Set the value of progress element
+progressBar.setAttribute("value", "50");
+  
+// Set the maximum value of progress element
+progressBar.setAttribute("max", "100");
+
+if (progressBar.value <= 50) {
+    imgUser.src = "../../assets/img/mijn-aap-sad.gif";
+} else {
+    imgUser.src = "../../assets/img/mijn-aap-happy.gif";
+}
+
 // Functies van de knoppen
 function gekozenHand(){
     imgUser.src = "../../assets/img/mijn-aap-hand.gif";
-
+    progressBar.value + 30;
+    
     // Code van: https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1
     setTimeout(terugAap, 4120);
 }
@@ -40,17 +57,3 @@ function gekozenBanaan(){
 }
 
 knopBanaan.addEventListener("click", gekozenBanaan);
-
-var progressBar = document.querySelector("#file");
-
-// Set the value of progress element
-progressBar.setAttribute("value", "50");
-  
-// Set the maximum value of progress element
-progressBar.setAttribute("max", "100");
-
-if (progressBar.value <= 50) {
-    imgUser.src = "../../assets/img/mijn-aap-sad.gif";
-} else {
-    imgUser.src = "../../assets/img/mijn-aap-happy.gif";
-}
