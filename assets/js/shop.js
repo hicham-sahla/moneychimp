@@ -13,6 +13,11 @@ var knopBruin = document.querySelector(".knop-bruin");
 var knopRoze = document.querySelector(".knop-roze");
 var knopGroen = document.querySelector(".knop-groen");
 
+// Knoppen minecraft
+var knopBril1 = document.querySelector(".knop-bril-1");
+var knopBril2 = document.querySelector(".knop-bril-2");
+var knopBril3 = document.querySelector(".knop-bril-3");
+
 // Afbeelding die veranderd
 var imgUser = document.querySelector(".veranderde-kleur");
 var UserBril = document.querySelector(".veranderde-bril");
@@ -74,6 +79,7 @@ function keuzenMinecraft() {
     if (keuzeMenuMinecraft.style.display === "none") {
         keuzeMenuMinecraft.style.display = "block";
         alleKeuzesMinecraft.style.display = "none"
+        UserBril.style.display = "block";
     } else {
         keuzeMenuMinecraft.style.display = "none";
         
@@ -100,19 +106,19 @@ function gekozenBril1(){
     UserBril.src = "../../assets/img/Shop-bril-1.gif";
 }
 
-knopBruin.addEventListener("click", gekozenBril1);
+knopBril1.addEventListener("click", gekozenBril1);
 
 function gekozenBril2(){
-    UserBril.src = "../../assets/img/Shop-bril-2.gi";
+    UserBril.src = "../../assets/img/Shop-bril-2.gif";
 }
 
-knopRoze.addEventListener("click", gekozenBril2);
+knopBril2.addEventListener("click", gekozenBril2);
 
 function gekozenBril3(){
-    UserBril.src = "../../assets/img/Shop-bril-3.gi";
+    UserBril.src = "../../assets/img/Shop-bril-3.gif";
 }
 
-knopGroen.addEventListener("click", gekozenBril3);
+knopBril3.addEventListener("click", gekozenBril3);
 
 
 UserBril.style.display = "none";
