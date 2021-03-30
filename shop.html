@@ -11,31 +11,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <!-- Zonder deze code kan ik de tekst niet bold maken -->
+
     <script src="https://kit.fontawesome.com/a7d66ca99a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/mijn-aap.css">
     <title>MoneyChimp</title>
 </head>
 <body class="mijn-aap-body">
+
+    <!-- Titel en cross naast elkaar -->
     <header class="header-shop">
         <h3 class="shop-titel">Shop</h3>
         <a href="mijn-aap.html"><i class="fas fa-times cross"></i></a>
     </header>
     <main>
+        <!-- Aantal bananen van de gebruiker -->
         <div class="score">
             <img class="img-score" src="assets/img/banaan-weinig.svg" alt="Aantal bananen weinig">
             <p class="score-font">100</p>
         </div>
+
+        <!-- Share icon -->
         <i class="fas fa-share-alt"></i>
+
+        <!-- De afbeelding die verandert wordt als de gebruiker een keuze maakt. 
+        Nu zijn alleen nog maar 2 knoppen werkend dus zie je ook maar 2 afbeeldingen in de div. -->
         <div class="user-keuze">
             <img class="shop-img veranderde-kleur" src="assets/img/default-aap.gif" alt="Blije aap">
             <img class="shop-img veranderde-bril" src="assets/img/shop-bril-1.png" alt="Bril 1">
         </div>
 
+        <!-- De icon voor de pop up, maar die moet nog werkend worden. -->
         <i class="fas fa-question-circle"></i>
 
+        <!-- Artikel keuzes -->
         <div class="clmns-kleur clmns-minecraft">
+            <!-- Eerste rij -->
             <div class="row first-row">
+                <!-- Kleur -->
                  <a class="shop-btn">
                      <div class="bank-clmn shop-clmn" id="keuze-kleur">
                          <img class="shop-bananen" src="assets/img/banaan-matig.svg" alt="Weinig bananen">
@@ -43,6 +56,7 @@
                      </div>
                      <p class="naam-produc">Kleur</p>
                  </a>
+                 <!-- Achtergrond -->
                  <a class="shop-btn">
                     <div class="bank-clmn shop-clmn">
                         <img class="shop-bananen" src="assets/img/banaan-matig.svg" alt="Weinig bananen">
@@ -50,6 +64,7 @@
                     </div>
                     <p class="naam-produc">Achtergrond</p>
                 </a>
+                <!-- Shirt -->
                 <a class="shop-btn">
                     <div class="bank-clmn shop-clmn">
                         <img class="shop-bananen" src="assets/img/banaan-matig.svg" alt="Weinig bananen">
@@ -58,7 +73,10 @@
                     <p class="naam-produc">Shirt</p>
                 </a>
             </div>
+
+            <!-- Tweede rij -->
             <div class="row">
+                <!-- Minecraft brillen -->
                 <a class="shop-btn">
                     <div class="bank-clmn shop-clmn" id="keuze-minecraft">
                         <img class="shop-bananen" src="assets/img/banaan-matig.svg" alt="Weinig bananen">
@@ -66,6 +84,7 @@
                     </div>
                     <p class="naam-produc">Minecraft Bril</p>
                 </a>
+                <!-- Sieraad -->
                 <a class="shop-btn">
                     <div class="bank-clmn shop-clmn">
                         <img class="shop-bananen" src="assets/img/banaan-matig.svg" alt="Weinig bananen">
@@ -78,44 +97,60 @@
             </div>
         </div>
 
+        <!-- De pop up van kleur om keuze te maken -->
         <div class="keuzen-menu menu-kleur">
             <p class="naam-keuze">Kies een kleur voor je aap</p>
             <div class="keuze-button">
                 <div class="keuzes">
+
+                    <!-- Bruin -->
                     <div class="keuze-row knop-bruin">
                         <div class="keuze-icon bruin"></div>
                         <p class="keuze-beschrijfing">Bruin</p>
                     </div>
+
+                    <!-- Roze -->
                     <div class="keuze-row knop-roze">
                         <div class="keuze-icon roze"></div>
                         <p class="keuze-beschrijfing">Roze</p>
                     </div>
+
+                    <!-- Groen -->
                     <div class="keuze-row knop-groen">
                         <div class="keuze-icon groen"></div>
                         <p class="keuze-beschrijfing">Groen</p>
                     </div>
                 </div>
+
+                <!-- Knop om te bevestigen -->
                 <a class="btn-3 gereed-btn-kleur">Gereed</a>
             </div>
         </div>
 
+        <!-- De pop up van minecraft om keuze te maken -->
         <div class="keuzen-menu menu-minecraft">
             <p class="naam-keuze">Kies een Minecraft bril voor je aap</p>
             <div class="keuze-button">
                 <div class="keuzes">
+                    <!-- Bril 1 -->
                     <div class="keuze-row knop-bril-1">
                         <div class="keuze-icon "><img class="bril-icon" src="assets/img/shop-bril-1-icon.png" alt="Bril 1"></div>
                         <p class="keuze-beschrijfing">Bril 1</p>
                     </div>
+
+                    <!-- Bril 2 -->
                     <div class="keuze-row knop-bril-2">
                         <div class="keuze-icon "><img class="bril-icon" src="assets/img/shop-bril-2-icon.png" alt="Bril 1"></div>
                         <p class="keuze-beschrijfing">Bril 2</p>
                     </div>
+
+                    <!-- Bril 3 -->
                     <div class="keuze-row knop-bril-3">
                         <div class="keuze-icon "><img class="bril-icon" src="assets/img/shop-bril-3-icon.png" alt="Bril 1"></div>
                         <p class="keuze-beschrijfing">Bril 3</p>
                     </div>
                 </div>
+                <!-- Knop om te bevestigen -->
                 <a class="btn-3 gereed-btn-minecraft">Gereed</a>
             </div>
         </div>
@@ -123,6 +158,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
+
+    <!-- Eigen script -->
     <script src="assets/js/shop.js"></script>
 </body>
 </html>

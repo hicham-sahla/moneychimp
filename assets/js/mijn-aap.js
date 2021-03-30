@@ -41,7 +41,7 @@ function gekozenBanaan(){
 
 knopBanaan.addEventListener("click", gekozenBanaan);
 
-var progressBar = document.querySelector("#file");
+// var progressBar = document.querySelector("#file");
 
 // if (progressBar <= 50) {
 //     imgUser.src = "../../assets/img/mijn-aap-sad.gif";

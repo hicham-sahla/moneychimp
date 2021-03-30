@@ -22,6 +22,7 @@ var knopBril3 = document.querySelector(".knop-bril-3");
 var imgUser = document.querySelector(".veranderde-kleur");
 var UserBril = document.querySelector(".veranderde-bril");
 
+// Gereed knop
 var gereedElKleur = document.querySelector(".gereed-btn-kleur");
 var gereedElMinecraft = document.querySelector(".gereed-btn-minecraft");
 
