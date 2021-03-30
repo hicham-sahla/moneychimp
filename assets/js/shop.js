@@ -44,19 +44,19 @@ keuzeMenu.style.display = "none";
 
 // Functies van de knoppen kleur
 function gekozenBruin(){
-    imgUser.src = "img/mijn-aap-happy.gif";
+    imgUser.src = "../../assets/img/mijn-aap-happy.gif";
 }
 
 knopBruin.addEventListener("click", gekozenBruin);
 
 function gekozenRoze(){
-    imgUser.src = "img/Shop-kleur-roze.gif";
+    imgUser.src = "../../assets/img/Shop-kleur-roze.gif";
 }
 
 knopRoze.addEventListener("click", gekozenRoze);
 
 function gekozenGroen(){
-    imgUser.src = "img/Shop-kleur-groen.gif";
+    imgUser.src = "../../assets/img/Shop-kleur-groen.gif";
 }
 
 knopGroen.addEventListener("click", gekozenGroen);

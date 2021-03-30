@@ -90,6 +90,22 @@ header a {
 }
 
 /* Shop keuzes */
+.bedrag-shop {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.naam-product {
+    font-size: 14px;
+}
+
+.naam-keuze {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+
 .keuzen-menu {
     padding: 20px;
     background: #C7E6E2;
