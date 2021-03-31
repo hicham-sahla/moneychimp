@@ -28,3 +28,8 @@ input[type="text"] {
   	box-sizing: border-box;
   	border-radius: 8px;
 }
+
+select {
+	background-color: #249F8D;
+	padding: 10px 10px 10px 10px;
+}
