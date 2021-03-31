@@ -4,15 +4,13 @@ body {
     height: 100vh;
 }
 
-input[type=email], input[type="text"] {
-  	width: 100%;
-  	padding: 10px 20px;
-  	margin: 10px 0px 20px 0px;
-  	box-sizing: border-box;
-  	border-radius: 8px;
+img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
-input[type=submit] {
+.verder {
   	background-color: #F6CB48;
   	border: 2px solid transparent;
   	color: #000000;
@@ -20,15 +18,13 @@ input[type=submit] {
   	border-radius: 8px;
   	font-size: 18px;
   	float: right;
+  	text-decoration: none;
   	font-weight: bold;
 }
 
-.bold {
-	font-weight: bold;
-}
-
-img {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+input[type="text"] {
+  	padding: 10px 20px;
+  	margin: 10px 0px 20px 0px;
+  	box-sizing: border-box;
+  	border-radius: 8px;
 }
