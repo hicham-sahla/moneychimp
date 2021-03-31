@@ -30,12 +30,18 @@ var gereedElMinecraft = document.querySelector(".gereed-btn-minecraft");
 
 // Function voor sluiten pop up
 function keuzenSluitenKleur() {
+    var score = document.querySelector(".score-font");
+
     if (keuzeMenu.style.display === "block") {
         keuzeMenu.style.display = "none";
         alleKeuzesKleur.style.display = "block";
+        naScore = score -100;
     } else {
         keuzeMenu.style.display = "block";
     }
+
+    var naScore;
+    score.textContent = naScore;
 }
 
 gereedElKleur.addEventListener("click", keuzenSluitenKleur);
