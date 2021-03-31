@@ -35,7 +35,7 @@ function keuzenSluitenKleur() {
     if (keuzeMenu.style.display === "block") {
         keuzeMenu.style.display = "none";
         alleKeuzesKleur.style.display = "block";
-        naScore = score -100;
+        naScore -= 100;
     } else {
         keuzeMenu.style.display = "block";
     }
