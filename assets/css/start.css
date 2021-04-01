@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+#start {
+    background: url(../../assets/img/background.jpg) right center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.start-div {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 5px;
+
+}
+
+.start-1 {
+    margin-left: 50px;
+}
+
+
+.start-wave {
+    height: 300px;
+    position: relative;
+    left: 0;
+    z-index: -999;
+    bottom: 237px;
+
+}
+
+.start-wave-2 {
+    height: 257px;
+    position: relative;
+    left: -400px;
+    z-index: -999;
+    bottom: 237px;
+
+}
+
+.start-wave-3 {
+    height: 257px;
+    position: relative;
+    left: -684px;
+    z-index: -999;
+    bottom: 234px;
+}
+
+start-div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-start {
+    align-self: center;
+    color: #1A776A;
+    background-color: #99B3A8;
+    padding: 30px 40px 30px 40px;
+    position: absolute;
+    bottom: 30px;
+    right: 155px;
+    border-radius: 10%;
+    border-right: 5px solid #1A776A;
+    border-top: 5px solid #1A776A;
+}
+
+.border-start-1 {
+    border-right: 5px solid #1A776A;
+    border-top: 5px solid #1A776A;
+}
+
+.border-start-2 {
+    border-right: 5px solid #1A776A;
+    border-top: 5px solid #1A776A;
+    border-bottom: 5px solid #1A776A;
+}
+
+.border-start-3 {
+    border: 5px solid #1A776A;
+}
+
+.start-text {
+    position: absolute;
+    top: 415px;
+    margin-left: 20px;
+
+}
