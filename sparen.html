@@ -7,27 +7,22 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/a7d66ca99a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/dit-ben-jij.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sparen.css">
     <title>MoneyChimp</title>
 </head>
 <body>
-    <header>
-        <h1>Dit ben jij</h1>
-    </header>
     <div>
-        <img src="assets/img/Dit-ben-jij.gif">
-        <form action="bank-kiezen.html">
-            <label class="bold" for="aapnaam">Naam van je aap</label>
-            <input type="text" id="aapnaam" name="aapnaam" value="Bente">
-
-            <label class="bold" for="naam">Naam</label>
-            <input type="text" id="naam" name="naam" value="Bente Spiegelaar">
-
-            <label class="bold" for="email">E-mail</label>
-            <input type="email" id="email" name="email" value="bente.spiegelaar@gmail.com">
-
-            <input type="submit" value="Verder">
-        </form>
+        <img src="assets/img/Max-sparen.gif">
+        <h2>Hoeveel wil jij maximaal uitgeven?</h2>
+        <div>
+            <label>€</label>
+            <input type="text" name="Sparen">
+            <select name="sparen">
+                <option value="Maand">Maand</option>
+                <option value="Week">Week</option>
+            </select>
+        </div>
+        <a class="verder" href="">Verder</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
