@@ -1,0 +1,15 @@
+body {
+	background: url(../../assets/img/background.jpg) right center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+img {
+    width: 10%;
+
+}
+
+h1 {
+	margin-top: 80px;
+}
+
