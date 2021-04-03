@@ -1,7 +1,7 @@
 body {
 	background: url(../../assets/img/background.jpg) right center no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 98vh;
 }
 
 input[type=email], input[type="text"] {
@@ -10,6 +10,7 @@ input[type=email], input[type="text"] {
   	margin: 10px 0px 20px 0px;
   	box-sizing: border-box;
   	border-radius: 8px;
+    font-size: 18px;
 }
 
 input[type=submit] {

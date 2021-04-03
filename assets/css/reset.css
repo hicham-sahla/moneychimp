@@ -4,6 +4,7 @@ input[type=email] {
   	margin: 10px 0px 20px 0px;
   	box-sizing: border-box;
   	border-radius: 8px;
+    font-size: 18px;
 }
 
 input[type=submit] {
@@ -16,4 +17,20 @@ input[type=submit] {
     width: 100%;
     margin-top: 30px;
     font-weight: bold;
+}
+
+h1 {
+    margin-top: 80px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right {
+    position: relative;
+    float: right;
+    font-size: 40px;
+    top: -28px;
+    color: #000000;
 }

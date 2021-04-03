@@ -2,6 +2,12 @@
   	box-sizing: border-box;
 }
 
+body {
+    background: url(../../assets/img/background.jpg) right center no-repeat;
+    background-size: cover;
+    height: 94vh;
+}
+
 img {
 	display: block;
   	margin-left: auto;
