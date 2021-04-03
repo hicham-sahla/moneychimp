@@ -9,8 +9,24 @@ h3,
 h4,
 h5 {
     font-family: 'Montserrat';
+    font-weight: bold !important;
+    /* Ergens anders word aangegeven wat het moet zijn vandaar dat important noodzakelijk is */
+}
+footer {
+    margin-top: 90px;
+    text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+}
+
+footer small{
+    font-size: 11px;
+    font-family: 'Montserrat';
+    font-weight: bold !important;
+    color: #1A776A;
+}
 header {
     margin-top: 20px;
 }
