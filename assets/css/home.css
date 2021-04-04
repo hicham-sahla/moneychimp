@@ -33,12 +33,6 @@ input[type=submit] {
   text-align: center;
 }
 
-.question {
-  font-size: 22px;
-  color: #E77131;
-  margin-top: 10px;
-}
-
 .btn-save {
   display: flex;
   font-weight: bold;
