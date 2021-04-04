@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <clipPath id="clip-edit_1">
+      <rect width="500" height="500"/>
+    </clipPath>
+  </defs>
+  <g id="edit_1" data-name="edit – 1" clip-path="url(#clip-edit_1)">
+    <rect width="500" height="500" fill="#fff"/>
+    <g id="Group_53" data-name="Group 53">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="51" height="680" rx="25.5" transform="translate(472.833 -8) rotate(45)" fill="#99b3a8"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="51" height="680" rx="25.5" transform="translate(508.895 472.833) rotate(135)" fill="#99b3a8"/>
+    </g>
+  </g>
+</svg>
