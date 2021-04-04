@@ -29,10 +29,12 @@
         <!-- Code van: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_progress -->
 
         <!-- Aap afbeelding -->
-        <img class="mijn-aap-img" id="user-aap" src="assets/img/mijn-aap-happy.gif" alt="Blije aap">
+        <img class="mijn-aap-img" id="user-aap" src="assets/img/Mijn-aap-happy.gif" alt="Blije aap">
 
         <!-- De icon voor de pop up, maar die moet nog werkend worden. -->
-        <i class="fas fa-question-circle"></i>
+        <i onclick="popUp()" class="fas fa-question-circle popup question float-end">
+            <span class="popuptext" id="myPopup">Houd je aap blij. Met de knoppen kan jij je aap onderhouden.</span>
+        </i>
 
         <!-- De 3 Knoppen -->
         <div class="img-clmns">
@@ -91,6 +93,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
+    <script src="assets/js/popup.js"></script>
     <!-- Eigen script -->
     <script src="assets/js/mijn-aap.js"></script>
 </body>

@@ -10,7 +10,7 @@ var imgUser = document.querySelector("#user-aap");
 
 // Code van: https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing1
 function terugAap() {
-    imgUser.src = "../../assets/img/mijn-aap-happy.gif";
+    imgUser.src = "../../assets/img/Mijn-aap-happy.gif";
 }
 
 // Progressbar werkend
@@ -24,14 +24,14 @@ progressBar.setAttribute("value", "50");
 progressBar.setAttribute("max", "100");
 
 if (progressBar.value <= 50) {
-    imgUser.src = "../../assets/img/mijn-aap-sad.gif";
+    imgUser.src = "../../assets/img/Mijn-aap-sad.gif";
 } else {
-    imgUser.src = "../../assets/img/mijn-aap-happy.gif";
+    imgUser.src = "../../assets/img/Mijn-aap-happy.gif";
 }
 
 // Functies van de knoppen
 function gekozenHand(){
-    imgUser.src = "../../assets/img/mijn-aap-hand.gif";
+    imgUser.src = "../../assets/img/Mijn-aap-hand.gif";
 
     // Code by: https://stackoverflow.com/questions/38123404/how-to-increment-value-on-progress-bar/38124239
     progressBar.value = progressBar.value + 10;
@@ -43,7 +43,7 @@ function gekozenHand(){
 knopHand.addEventListener("click", gekozenHand);
 
 function gekozenDansen(){
-    imgUser.src = "../../assets/img/mijn-aap-dansen.gif";
+    imgUser.src = "../../assets/img/Mijn-aap-dansen.gif";
 
     // Code by: https://stackoverflow.com/questions/38123404/how-to-increment-value-on-progress-bar/38124239
     progressBar.value = progressBar.value + 10;
@@ -55,7 +55,7 @@ function gekozenDansen(){
 knopMuziek.addEventListener("click", gekozenDansen);
 
 function gekozenBanaan(){
-    imgUser.src = "../../assets/img/mijn-aap-eten.gif";
+    imgUser.src = "../../assets/img/Mijn-aap-eten.gif";
 
     // Code by: https://stackoverflow.com/questions/38123404/how-to-increment-value-on-progress-bar/38124239
     progressBar.value = progressBar.value + 10;
