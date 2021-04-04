@@ -24,10 +24,13 @@
         <h1>gemiddelde uitgaven</h1>
         <p>je kunt nog €100 uitgeven deze maand</p>
         <progress value="80" class="progress-aap" id="file"></progress>
-        <i class="fas fa-question-circle float-end question"></i>
+        <i onclick="popUp()" class="fas fa-question-circle popup question float-end">
+            <span class="popuptext" id="myPopup">Dit is je Home Dashboard. Hier zie jij jouw aantal geld globaal.
+Klik op de knoppen voor meer</span>
+        </i>
     </div>
 </header>
-<a href="" class="btn-save"><span class="mx-auto">Ik wil sparen voor...</span></a>
+<a href="item.html" class="btn-save"><span class="mx-auto">Ik wil sparen voor...</span></a>
 <main class="transactions">
     <div class="row mt-4">
         <div class="col-6">
@@ -48,9 +51,6 @@
                 <div class="col-12">
                     <a href="" class=" btn btn-warning btn-transaction-add float-end mt-3">Transactie<i
                             class="fas fa-plus px-1"></i></a>
-                </div>
-                <div class="col-12">
-                    <i class="fas fa-question-circle float-end transaction-question question"></i>
                 </div>
             </div>
         </div>
@@ -107,6 +107,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
+    <script src="assets/js/popup.js"></script>
 </body>
 
 </html>
