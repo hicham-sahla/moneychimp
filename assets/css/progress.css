@@ -1,0 +1,16 @@
+.graph-titles a {
+    font-size: 28px;
+    color: black!important;
+}
+
+.graph-titles {
+    margin-top: 30px!important;
+}
+
+select {
+    margin-top: 10px;
+    justify-content: center;
+    background-color: #1A776A!important;
+    width: 50%!important;
+    color: white!important;
+}
