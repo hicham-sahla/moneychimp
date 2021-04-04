@@ -6,6 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/a7d66ca99a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/registreren.css">
     <title>MoneyChimp</title>
@@ -18,22 +20,22 @@
     <div>
         <h1>Welkom!</h1>
         <form action="dit-ben-jij.html">
+            <label class="bold" for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+
             <label class="bold" for="pwd">Wachtwoord</label>
             <input type="password" id="pwd" name="pwd" minlength="8">
 
             <label class="bold" for="pwd">Wachtwoord herhalen</label>
             <input type="password" id="pwd" name="pwd" minlength="8">
 
-            <label class="bold" for="email">E-mail</label>
-            <input type="email" id="email" name="email">
-
             <input type="submit" value="Registreren">
         </form>
         <p class="center bold marginZeventig">Registreren met:</p>
         <div class="center">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-google"></i>
-            <i class="fab fa-twitter"></i>
+            <a href="dit-ben-jij.html"><i class="fab fa-facebook-f"></i></a>
+            <a href="dit-ben-jij.html"><i class="fab fa-google"></i></a>
+            <a href="dit-ben-jij.html"><i class="fab fa-twitter"></i></a>
         </div>
         <p class="center marginVeertig"><a href="inloggen.html">Ik heb al een account</a></p>
     </div>

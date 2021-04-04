@@ -1,5 +1,6 @@
 h1 {
 	margin-top: 80px;
+    font-weight: bold;
 }
 
 input[type=email], input[type="password"] {
@@ -8,6 +9,7 @@ input[type=email], input[type="password"] {
   	margin: 10px 0px 20px 0px;
   	box-sizing: border-box;
   	border-radius: 8px;
+    font-size: 18px;
 }
 
 input[type=submit] {
@@ -30,10 +32,6 @@ input[type=submit] {
 	text-align: center;
 }
 
-.underline {
-    text-decoration: underline;
-}
-
 .marginZestig {
 	margin-top: 60px;
 }
@@ -44,4 +42,8 @@ input[type=submit] {
 
 a {
 	color: #000000;
+}
+
+.marginTwintig {
+    margin-top: 20px;
 }

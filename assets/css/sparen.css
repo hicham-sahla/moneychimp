@@ -1,7 +1,7 @@
 body {
 	background: url(../../assets/img/background.jpg) right center no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 94vh;
 }
 
 img {
@@ -23,13 +23,75 @@ img {
 }
 
 input[type="text"] {
-  	padding: 10px 20px;
-  	margin: 10px 0px 20px 0px;
+  	padding: 10px 2px;
+  	margin: 10px 0px 20px 22px;
   	box-sizing: border-box;
   	border-radius: 8px;
+    font-size: 18px;
 }
 
 select {
 	background-color: #249F8D;
 	padding: 10px 10px 10px 10px;
+}
+
+.margin {
+	margin-top: 168px;
+}
+
+.fa-question-circle {
+	color: #E77131;
+	float: right;
+	font-size: 20px;
+}
+
+.sparen {
+	margin-top: 40px;
+}
+
+.marginImg {
+	margin-top: 50px;
+}
+
+.popup {
+  	position: relative;
+  	display: inline-block;
+  	cursor: pointer;
+}
+
+.popup .popuptext {
+  	visibility: hidden;
+  	width: 223px;
+  	background-color: #F2B797;
+  	color: #000000;
+  	text-align: center;
+  	border-radius: 8px;
+  	padding: 22px 16px;
+  	position: absolute;
+  	z-index: 1;
+  	bottom: -35px;
+  	right: 30px;
+  	font-family: 'Nunito';
+  	font-size: 16px !important;
+  	font-weight: normal !important;
+}
+
+.popup .show {
+  	visibility: visible;
+  	animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  	from {opacity: 0;}
+  	to {opacity:1 ;}
+}
+
+label {
+	position: absolute;
+	font-size: 28px;
+	margin-top: 12px;
+}
+
+h2 {
+    font-weight: bold;
 }

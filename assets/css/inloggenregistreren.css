@@ -1,16 +1,17 @@
 body {
     background: url(../../assets/img/background.jpg) right center no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 98vh;
 }
 
 .position {
-    position: absolute;
+    position: fixed;
     top: 0;
 }
 
 h1 {
     margin-top: 400px;
+    font-weight: bold;
 }
 
 .inloggen {

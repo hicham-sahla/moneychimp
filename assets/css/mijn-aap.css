@@ -12,6 +12,7 @@ header a {
     background: url(../../assets/img/background.jpg) right center no-repeat;
     background-size: cover;
     height: 100vh;
+    padding: 20px;
 }
 
 /* Titel van de pagina links boven */
@@ -40,11 +41,16 @@ header a {
 }
 
 /* 3 Knoppen styling */
-.row {
+.row-aap a {
+    color: black;
+    text-decoration: none;
+}
+
+.row-aap {
     display: flex;
 }
 
-.row a {
+.row-aap a {
     flex: 1;
     text-align: center;
 }
@@ -98,7 +104,7 @@ header a {
 
 /* Shop keuzes */
 .clmns-kleur {
-    margin-top: 300px;
+    margin-top: 270px;
 }
 
 .user-keuze {
@@ -131,7 +137,7 @@ header a {
     padding: 20px;
     background: #C7E6E2;
     border-radius: 10px;
-    margin-top: 300px;
+    margin-top: 270px;
 }
 
 .keuzes {
@@ -170,4 +176,8 @@ header a {
 .bril-icon {
     width: 50px;
     transform: translate(0px, 25px);
+}
+
+.keuze-button a {
+    text-decoration: none;
 }

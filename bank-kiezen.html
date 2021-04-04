@@ -6,6 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/a7d66ca99a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bank-kiezen.css">
     <title>MoneyChimp</title>
@@ -16,21 +18,26 @@
     </header>
     <div>
         <img src="assets/img/Koppel-bank.gif">
+        <i onclick="popUp()" class="fas fa-question-circle popup">
+            <span class="popuptext" id="myPopup">Deze app is goedgekeurd door de overheid. Wees niet bang.</span>
+        </i>
         <div class="row">
-            <a href=""><img src="assets/img/bank-rabo.svg"><h3>Rabobank</h3></a>
-            <a href=""><img src="assets/img/bank-ing.svg"><h3>ING</h3></a>
-            <a href=""><img src="assets/img/bank-abn-ambro.svg"><h3>ABN Ambro</h3></a>
+            <button type="submit"><img id="rabo" class="btn" src="assets/img/bank-rabo.svg">Rabobank</button>
+            <button type="submit"><img id="ing" class="btn" src="assets/img/bank-ing.svg">ING</button>
+            <button type="submit"><img id="abn" class="btn" src="assets/img/bank-abn-ambro.svg">ABN Ambro</button>
         </div>
 
-        <!-- <div class="row">
-            <img class="column" src="assets/img/bank-sns.svg">
-            <img class="column" src="assets/img/bank-asn.svg">
-            <img class="column" src="assets/img/bank-triodos.svg">
-        </div> -->
+        <div class="row margin">
+            <button type="submit"><img id="sns" class="btn" src="assets/img/bank-sns.svg">SNS Bank</button>
+            <button type="submit"><img id="asn" class="btn" src="assets/img/bank-asn.svg">ASN Bank</button>
+            <button type="submit"><img id="triodos" class="btn" src="assets/img/bank-triodos.svg">Triodos Bank</button>
+        </div>
         <a class="verder" href="sparen.html">Verder</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
     </script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/bank-kiezen.js"></script>
 </body>
 </html>
