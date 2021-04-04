@@ -27,7 +27,7 @@ input[type="text"] {
   	margin: 10px 0px 20px 22px;
   	box-sizing: border-box;
   	border-radius: 8px;
-     font-size: 18px;
+    font-size: 18px;
 }
 
 select {
@@ -90,4 +90,8 @@ label {
 	position: absolute;
 	font-size: 28px;
 	margin-top: 12px;
+}
+
+h2 {
+    font-weight: bold;
 }

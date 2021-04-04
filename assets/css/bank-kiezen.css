@@ -107,3 +107,7 @@ button {
     display: inline-block;
     margin-left: 4px;
 }
+
+h1 {
+    font-weight: bold;
+}
