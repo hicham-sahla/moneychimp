@@ -19,7 +19,7 @@ var progressBar = document.querySelector("#file");
 // Cody by:https://www.geeksforgeeks.org/how-to-set-get-the-value-of-progress-bar-using-javascript/
 // Set the value of progress element
 progressBar.setAttribute("value", "50");
-  
+
 // Set the maximum value of progress element
 progressBar.setAttribute("max", "100");
 

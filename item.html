@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a7d66ca99a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/item.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>MoneyChimp</title>
+</head>
+
+<body id="start" class="container">
+<header>
+    <div class="header-text">
+        <h1>Ik wil sparen voor</h1>
+        <i onclick="popUp()" class="fas fa-question-circle popup question float-end">
+            <span class="popuptext" id="myPopup">Hier kan jij op een rijtje zetten waar jij voor wilt sparen!</span>
+        </i>
+    </div>
+</header>
+<main class="mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h2>Hoeveel kost het?</h2>
+            <div class="input-group mb-3 mt-3">
+                <span class="input-group-text">€</span>
+                <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+            </div>
+            <div class="mb-3">
+                <label for="text-1" class="form-label">Waarvoor is het?</label>
+                <input type="text" class="form-control" id="text-1" placeholder="T-shirt">
+            </div>
+            <h4>Selecteer categorie</h4>
+            <div class="btn-group mt-3 d-flex justify-content-center"  role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">Kleding</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Eten</label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">Misc</label><br>
+            </div>
+            <button class="btn btn-warning mt-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Anders
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <div class="mb-3">
+                        <label for="cat-1" class="form-label">Categorie</label>
+                        <input type="text" class="form-control" id="cat-1" placeholder="categorie">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mt-5">
+            <a href="home.html" class="btn btn-warning float-end">Gereed</a>
+        </div>
+
+    </div>
+</main>
+<footer>
+    <nav class="navbar navbar-light bg-light fixed-bottom py-3">
+        <div class="container">
+            <a href="home.html">
+                <img src="assets/img/home.png" alt="" width="40" height="34"><br>
+                <small>Home</small>
+            </a>
+            <a href="progress.html">
+                <img src="assets/img/voortgang.png" alt="" width="40" height="34"><br>
+                <small>Voortgang</small>
+            </a>
+            <a href="mijn-aap.html">
+                <img src="assets/img/logo-bottom-nav.svg" alt="" width="40" height="34"><br>
+                <small>Mijn aap</small>
+            </a>
+            <a href="chimpbot.html">
+                <img src="assets/img/message.png" alt="" width="40" height="34"><br>
+                <small>Chimpbot</small>
+            </a>
+            <a href="instellingen.html">
+                <img src="assets/img/settings.svg" alt="" width="40" height="34"><br>
+                <small>Instellingen</small>
+            </a>
+        </div>
+    </nav>
+</footer>
+<div class="start-div-btn">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/popup.js"></script>
+</body>
+
+</html>

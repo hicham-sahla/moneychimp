@@ -1,9 +1,9 @@
-var buttonpet = document.querySelector("#rabo");
-var buttonpet2 = document.querySelector("#ing");
-var buttonpet3 = document.querySelector("#abn");
-var buttonadidas = document.querySelector("#sns");
-var buttonjordans = document.querySelector("#asn");
-var buttonnike = document.querySelector("#triodos");
+var rabobank = document.querySelector("#rabo");
+var ingbank = document.querySelector("#ing");
+var abnamro = document.querySelector("#abn");
+var snsbank = document.querySelector("#sns");
+var asnbank = document.querySelector("#asn");
+var triodosbank = document.querySelector("#triodos");
 
 function changeButton(identifier) {
     if (identifier == "rabo") {
@@ -36,21 +36,21 @@ function removeButton() {
     triodos.classList.remove("btnChanged")
 }
 
-buttonpet.addEventListener("click", function() {
+rabobank.addEventListener("click", function() {
     changeButton("rabo")
 });
-buttonpet2.addEventListener("click", function() {
+ingbank.addEventListener("click", function() {
     changeButton("ing")
 });
-buttonpet3.addEventListener("click", function() {
+abnamro.addEventListener("click", function() {
     changeButton("abn")
 });
-buttonadidas.addEventListener("click", function() {
+snsbank.addEventListener("click", function() {
     changeButton("sns")
 });
-buttonjordans.addEventListener("click", function() {
+asnbank.addEventListener("click", function() {
     changeButton("asn")
 });
-buttonnike.addEventListener("click", function() {
+triodosbank.addEventListener("click", function() {
     changeButton("triodos")
 });

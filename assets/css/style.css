@@ -151,49 +151,36 @@ progress::-webkit-progress-value {
     margin: 0px 10px 0px 10px;
 }
 
-/* Tooltip container */
-.tooltip {
+.popup {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    cursor: pointer;
 }
 
-/* Tooltip text */
-.tooltip .tooltiptext {
+.popup .popuptext {
     visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
+    width: 223px;
+    background-color: #F2B797;
+    color: #000000;
     text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-
-    /* Position the tooltip text */
+    border-radius: 8px;
+    padding: 22px 16px;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-
-    /* Fade in tooltip */
-    opacity: 0;
-    transition: opacity 0.3s;
+    bottom: -35px;
+    right: 30px;
+    font-family: 'Nunito';
+    font-size: 16px !important;
+    font-weight: normal !important;
 }
 
-/* Tooltip arrow */
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
+.popup .show {
     visibility: visible;
-    opacity: 1;
+    animation: fadeIn 1s;
 }
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
