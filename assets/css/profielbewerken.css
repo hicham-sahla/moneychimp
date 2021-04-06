@@ -37,3 +37,12 @@ img {
   	margin-left: auto;
   	margin-right: auto;
 }
+
+.kruis {
+    display: inline;
+    float: right;
+    position: relative;
+    top: -23px;
+    width: 10%;
+    height: 10%;
+}
