@@ -14,12 +14,9 @@ a {
 }
 
 .rabobank {
-    width: 60px;
+    width: 120px;
     background-color:#F1D9CD;
-    padding-right: 2em;
-    padding-left: 2em;
-    padding-top:1em;
-    padding-bottom: 1em;
+    padding: 10px;
     border-radius: 1em;
     /* padding: 1em, 2em; */
 }

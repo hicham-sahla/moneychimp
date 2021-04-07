@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8f8daed5-585a-4540-903e-5fceb9d810f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/instellingen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/instellingen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/verbondenbanken.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/verbondenbanken.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instellingen.html" beforeDir="false" afterPath="$PROJECT_DIR$/instellingen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/profiel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profielbewerken.html" beforeDir="false" afterPath="$PROJECT_DIR$/profielbewerken.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/progress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verbondenbanken.html" beforeDir="false" afterPath="$PROJECT_DIR$/verbondenbanken.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,7 @@
       <updated>1617457521089</updated>
       <workItem from="1617457524071" duration="7098000" />
       <workItem from="1617546865785" duration="8534000" />
-      <workItem from="1617800993579" duration="34000" />
+      <workItem from="1617800993579" duration="1032000" />
     </task>
     <servers />
   </component>
